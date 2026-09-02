@@ -2,7 +2,7 @@
 
 ## Identificação
 
-**Grupo:** StreamFIAP
+**Grupo:** StreamF
 
 | Integrante | RM | Turma |
 |---|---|---|
