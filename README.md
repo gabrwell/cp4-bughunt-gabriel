@@ -1,4 +1,4 @@
-# Checkpoint 4 - Bug Hunt StreamFIAP
+# Checkpoint 4 - Bug Hunt Stream
 
 ## Identificação
 
