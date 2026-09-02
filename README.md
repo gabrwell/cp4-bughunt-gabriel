@@ -6,12 +6,12 @@
 
 | Integrante | RM | Turma |
 |---|---|---|
-| Pedro Henrique dos Santos Cardoso | 563268 | - |
-| Gabriel Gibin Leoncio | 565462 | - |
-| Rafael do Nascimento Silva | 566263 | - |
-| Rai Augusto Ribeiro | 562870 | - |
-| Guilherme Morais de Assis | 564198 | - |
-| Lucas Werpp Franco | 556044 | - |
+| Pedro Henrique dos Santos Cardoso | 563268 | 2CCPG |
+| Gabriel Gibin Leoncio | 565462 | 2CCPG |
+| Rafael do Nascimento Silva | 566263 | 2CCPG |
+| Rai Augusto Ribeiro | 562870 | 2CCPG |
+| Guilherme Morais de Assis | 564198 | 2CCPG |
+| Lucas Werpp Franco | 556044 | 2CCPG |
 
 | Campo | Resultado |
 |---|---|
