@@ -5,7 +5,6 @@ import br.com.fiap.streamfiap.model.Conteudo;
 import br.com.fiap.streamfiap.model.Usuario;
 import br.com.fiap.streamfiap.repository.ConteudoRepository;
 import br.com.fiap.streamfiap.repository.UsuarioRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,11 +12,13 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/alugueis")
 public class AluguelController {
 
-    @Autowired
-    private UsuarioRepository usuarioRepository;
+    private final UsuarioRepository usuarioRepository;
+    private final ConteudoRepository conteudoRepository;
 
-    @Autowired
-    private ConteudoRepository conteudoRepository;
+    public AluguelController(UsuarioRepository usuarioRepository, ConteudoRepository conteudoRepository) {
+        this.usuarioRepository = usuarioRepository;
+        this.conteudoRepository = conteudoRepository;
+    }
 
     // POST /api/alugueis?usuarioId=1&conteudoId=2 - Alugar um conteúdo
     @PostMapping

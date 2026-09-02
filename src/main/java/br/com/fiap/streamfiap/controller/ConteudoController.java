@@ -6,7 +6,6 @@ import br.com.fiap.streamfiap.model.Documentario;
 import br.com.fiap.streamfiap.model.Filme;
 import br.com.fiap.streamfiap.model.Serie;
 import br.com.fiap.streamfiap.repository.ConteudoRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,8 +15,11 @@ import java.util.List;
 @RequestMapping("/api/conteudos")
 public class ConteudoController {
 
-    @Autowired
-    private ConteudoRepository conteudoRepository;
+    private final ConteudoRepository conteudoRepository;
+
+    public ConteudoController(ConteudoRepository conteudoRepository) {
+        this.conteudoRepository = conteudoRepository;
+    }
 
     // GET /api/conteudos - Listar todos
     @GetMapping
