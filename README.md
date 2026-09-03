@@ -18,7 +18,7 @@
 | **Total de bugs corrigidos** | **12 / 12** |
 | **Total de ajustes de Clean Code** | **6 / 6** |
 
-> **Instrução para o professor:** antes de executar o projeto, substitua `SEU_RM` e `SUA_SENHA` no arquivo `src/main/resources/application.properties` por credenciais válidas do banco Oracle da FIAP.
+> **Instrução para o professor:** antes de executar o projeto, substitua `SEU_RM` e `SUA_SENHA` no arquivo `src/main/resources/application.properties` por credenciais válidas do banco Oracle.
 
 ## Parte 1 - Bugs encontrados
 
