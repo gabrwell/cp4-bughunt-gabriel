@@ -13,6 +13,8 @@
 | Guilherme Morais de Assis | 564198 | 2CCPG |
 | Lucas Werpp Franco | 556044 | 2CCPG |
 
+**Antes de executar, configure SPRING_DATASOURCE_USERNAME e SPRING_DATASOURCE_PASSWORD com as credenciais Oracle da FIAP.**
+
 | Campo | Resultado |
 |---|---|
 | **Total de bugs corrigidos** | **12 / 12** |
